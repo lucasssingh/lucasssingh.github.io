@@ -2,13 +2,18 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    position: relative;
 }
 
 .title {
     position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
 }
 
 .name {
     font-size: large;
-    
+
 }
